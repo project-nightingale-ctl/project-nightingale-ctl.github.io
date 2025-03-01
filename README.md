@@ -1,5 +1,5 @@
 # Project Nightingale Website
-Link to the published website: https://project-nightingale-ctl.github.io/
+Link to the published website: https://project-nightingale.stanford.edu/
 
 # Quick deploy
 First, and just one time: make sure you have run `npm install`.
