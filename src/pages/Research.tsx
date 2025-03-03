@@ -13,7 +13,7 @@ const Research: React.FC<{}> = () => {
         <h2 className="text-4xl mb-2">research</h2>
         <div className="outline rounded-lg py-4 px-4">
           coming soon...
-          {/* <div className="flex flex-wrap justify-around w-full h-full text-sm">
+          {false && <div className="flex flex-wrap justify-around w-full h-full text-sm">
             {researchProject.map((r) => {
               return (
                 <ResearchCard
@@ -27,7 +27,7 @@ const Research: React.FC<{}> = () => {
                 />
               );
             })}
-          </div> */}
+          </div>}
         </div>
       </div>
     </div>
