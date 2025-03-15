@@ -21,7 +21,7 @@ const Home: React.FC<{}> = () => {
           </div>
           <div className="flex flex-col ml-12">
             <div className="text-5xl">Project Nightingale</div>
-            <div className="text-3xl mt-6">
+            <div className="text-3xl mt-6 w-3/4">
               {">"} advancing the science of data and visualization literacy
             </div>
           </div>

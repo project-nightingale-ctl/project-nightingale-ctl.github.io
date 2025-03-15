@@ -1,3 +1,5 @@
+import "./card.css"
+
 interface Speaker {
   name: string;
   affiliation: string;
