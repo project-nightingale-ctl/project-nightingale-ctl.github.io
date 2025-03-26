@@ -7,7 +7,7 @@ const Events: React.FC<{}> = () => {
 >
   <div className="">
     <h2 className="text-4xl mb-2">events</h2>
-    <div className="outline rounded-lg py-4 px-4">
+    <div className="outline rounded-lg py-4 px-4 bg-white">
       coming soon...
     </div>
   </div>

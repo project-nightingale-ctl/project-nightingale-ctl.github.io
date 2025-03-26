@@ -13,13 +13,14 @@ const ResearchCard: React.FC<IResearchCard> = (props) => {
 
   return (
     <div
-      style={{ width: "32em" }}
       className={
-        "bg-white ml-2 mb-2 p-2 rounded-lg border-2 hover:border-yellow-400 flex flex-col text-sm"
+        "bg-gray w-1/2 p-2 hover:border-yellow-400 flex flex-col text-sm"
       }
     >
-      <div>
-        <div className="h-24 px-2 py-1 bg-gray-100 rounded-lg text-lg">{o.title}</div>
+      <div className="m-2  rounded-lg">
+        <div className="h-24 px-2 py-1 bg-gray-100 rounded-lg text-lg">
+          {o.title}
+        </div>
         <div className="flex mt-1">
           Authors
           <div className="w-full h-1 mx-2 my-2 bg-yellow-300 rounded-lg" />
@@ -40,13 +41,14 @@ const ResearchCard: React.FC<IResearchCard> = (props) => {
           <div className="w-full h-1 mx-2 my-2 bg-yellow-500 rounded-lg" />
         </div>
         <div className="px-2 py-1 rounded-lg ">{o.website}</div>
+
+        <img
+          style={{ maxHeight: "18em" }}
+          className="mx-auto my-auto rounded-sm"
+          src={o.imgSrc}
+          alt={o.imgAlt}
+        />
       </div>
-      <img
-        style={{ maxHeight: "18em" }}
-        className="mx-auto my-auto rounded-sm"
-        src={o.imgSrc}
-        alt={o.imgAlt}
-      />
     </div>
   );
 };

@@ -21,7 +21,7 @@ const People: React.FC = () => {
     >
       <div className="">
         <h2 className="text-4xl mb-2">research team</h2>
-        <div className="outline rounded-lg mb-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="border-2 border-black bg-white rounded-lg mb-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {researchTeam.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 200}} />
           ))}
@@ -29,7 +29,7 @@ const People: React.FC = () => {
       </div>
       <div className="">
         <h2 className="text-4xl mb-2">advisory board</h2>
-        <div className="outline rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="border-2 border-black bg-white rounded-lg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {advisoryBoard.map((person, idx) => (
             <PersonPortrait person={{...person, id: idx + 100}} />
           ))}
