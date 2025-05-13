@@ -20,18 +20,23 @@
 .rotating-box {
 
   /* transform-origin: bottom right; */
-  transform-origin: 100% 60%;
+  transform-origin: 40% 90%;
 
   /* Animation */
-  animation: rotateCCW 2.75s infinite linear;
+  animation: rotateCCW 2s infinite linear;
 }
 
-/* Keyframes for counterclockwise rotation */
 @keyframes rotateCCW {
   0% {
     /* transform: rotate(0.5deg); */
     transform: rotate(0.5deg);}
+  25% {
+      transform: rotate(-0.5deg);
+    }
   50% {
+    transform: rotate(0.5deg);
+  }
+  75% {
     transform: rotate(-0.5deg);
   }
   100% {
