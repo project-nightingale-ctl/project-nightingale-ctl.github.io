@@ -5,7 +5,8 @@
         "authors": ["Erik Brockbank", "Arnav Verma", "Hannah Lloyd", "Holly Huey", "Lace Padilla", "Judith Fan"],
         "website": "Coming Soon...",
         "imgSrc": "/research_images/brockbank_crpi_2025.png",
-        "imgAlt": "Analyzing error patterns between humans"
+        "imgAlt": "Analyzing error patterns between humans",
+        "url": "vis_eval"
     },
     {
         "title": "Evaluating human and machine understanding of data visualizations",
@@ -13,7 +14,8 @@
         "authors": ["Arnav Verma", "Kushin Mukherjee", "Christopher Potts", "Elisa Kreiss", "Judith Fan"],
         "website": "Coming Soon...",
         "imgSrc": "/research_images/verma_cogsci_2024.png",
-        "imgAlt": "Analyzing response consistency between humans and models"
+        "imgAlt": "Analyzing response consistency between humans and models",
+        "url": "chart6"
     }
     
 ]

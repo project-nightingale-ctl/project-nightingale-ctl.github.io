@@ -1,0 +1,17 @@
+[
+    {   
+        "id": "gcb",
+        "imgSrc": "public/research_posters/gcb.png",
+        "imgAlt": "Analyzing response consistency between humans and models"
+    },
+    {   
+        "id": "chart6",
+        "imgSrc": "public/research_posters/chart6.png",
+        "imgAlt": "Analyzing response consistency between humans and models"
+    },
+    {   
+        "id": "solds",
+        "imgSrc": "public/research_posters/solds.png",
+        "imgAlt": "Analyzing response consistency between humans and models"
+    }
+]

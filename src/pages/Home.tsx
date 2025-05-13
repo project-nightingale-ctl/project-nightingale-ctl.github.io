@@ -1,10 +1,36 @@
+import { useEffect } from "react";
 import Header from "../components/Header";
 import "../custom.css";
 import Events from "./Events";
 import People from "./People";
 import Research from "./Research";
+import { useLocation } from "react-router-dom";
 
 const Home: React.FC<{}> = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    // if (window.location.pathname !== "/") {
+    //   // Redirect to '/' and add a hash for the section label
+    //   window.location.href = `/#${section.label}`;
+    //   return;
+    // }
+    console.log();
+    if (location.hash) {
+      const element = document.getElementById(location.hash);
+      if (element) {
+        const headerOffset = 64 + 12; // Offset height of the fixed header
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }
+  }, [location]);
+
   return (
     <>
       <Header />
